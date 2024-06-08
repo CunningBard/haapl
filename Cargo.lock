@@ -3,15 +3,16 @@
 version = 3
 
 [[package]]
-name = "api"
-version = "0.1.0"
-
-[[package]]
 name = "haapl"
 version = "0.1.0"
 dependencies = [
+ "haapl_api",
  "xml-rs",
 ]
+
+[[package]]
+name = "haapl_api"
+version = "0.1.0"
 
 [[package]]
 name = "xml-rs"
